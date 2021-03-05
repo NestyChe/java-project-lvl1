@@ -53,9 +53,10 @@
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
 
-	<plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>${maven-assembly-plugin.version}</version>
         <configuration>
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -94,12 +95,33 @@
 	<plugin>
 	  <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-	  <version>3.8.0</version>
+	  <version>${maven-compiler-plugin.version}</version>
 	  <configuration>
-		<release>11</release>
+		<release>${java.version}</release>
 	  </configuration>
         </plugin>
 	
+	<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-checkstyle-plugin</artifactId>
+	<version>3.1.2</version>
+        <configuration>
+    	 <configLocation>checkstyle.xml</configLocation>
+    	 <encoding>UTF-8</encoding>
+	 <consoleOutput>true</consoleOutput>
+   	 <failsOnError>true</failsOnError>
+    	 <linkXRef>false</linkXRef>
+ 	</configuration>
+  	 <executions>
+    	   <execution>
+      	 	<id>validate</id>
+      		 <phase>validate</phase>
+         	<goals>
+         	 <goal>check</goal>
+          	</goals>
+    	   </execution>
+  	 </executions>
+ 	</plugin>
 
 	<plugin>
           <artifactId>maven-surefire-plugin</artifactId>
