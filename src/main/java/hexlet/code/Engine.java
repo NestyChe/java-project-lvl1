@@ -36,14 +36,15 @@ public class Engine {
     }
 
     public static void correctOrNot(final String result, final String answer) {
-            if (result.equals(answer)) {
-                System.out.println("Correct!");
-                count += 1;
-            } else {
-                System.out.println("'" + answer + "' is wrong answer ;(."
-                + " Correct answer was '" + result + "'"
-                + ".\nLet's try again, " + NAME_GAMER);
-                count = 0;
-            }
+        if (result.equals(answer)) {
+            System.out.println("Correct!");
+            count += 1;
+        } else {
+            System.out.println("'" + answer + "' is wrong answer ;(."
+                + " Correct answer was '" + result + "'."
+                + "\nLet's try again, " + NAME_GAMER + "!");
+            count = 0;
+            System.exit(0);
+        }
     }
 }

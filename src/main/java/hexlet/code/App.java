@@ -23,7 +23,7 @@ public class App {
         + "4 - GCD\n"
         + "5 - Progression\n"
         + "6 - Prime\n"
-        + "0 - Exit\n");
+        + "0 - Exit");
         System.out.print("Your choice: ");
         Scanner sc = new Scanner(System.in);
         String choice =  sc.nextLine();
