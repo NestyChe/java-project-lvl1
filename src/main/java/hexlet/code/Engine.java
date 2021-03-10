@@ -16,7 +16,7 @@ public class Engine {
         final int yesANSWERS = 3;
         if (count == yesANSWERS) {
             System.out.println("Congratulations, " + NAME_GAMER + "!");
-            System.exit(0);
+            App.makeGame();
         } else {
             askQuestion(expression);
             getAnswer();
@@ -44,7 +44,6 @@ public class Engine {
                 + " Correct answer was '" + result + "'"
                 + ".\nLet's try again, " + NAME_GAMER);
                 count = 0;
-                System.exit(0);
             }
     }
 }
