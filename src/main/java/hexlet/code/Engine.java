@@ -42,7 +42,7 @@ public class Engine {
             } else {
                 System.out.println("'" + answer + "' is wrong answer ;(."
                 + " Correct answer was '" + result + "'"
-                + ".\nLet's try again, " + NAME_GAMER "!");
+                + ".\nLet's try again, " + NAME_GAMER);
                 count = 0;
                 System.exit(0);
             }
