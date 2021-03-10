@@ -12,7 +12,8 @@ public class Calc {
         int secondOperand = Engine.randomInt();
         char operator;
         operator = str.charAt(1 + (int) (Math.random() * str.length() - 1));
-        String expression = " " + firstOperand  + operator  + secondOperand;
+        String halfExpresion = "" + firstOperand + " " + operator;
+        String expression = " " + halfExpresion + " " + secondOperand;
         switch (operator) {
         case '-':
              result = firstOperand - secondOperand;
