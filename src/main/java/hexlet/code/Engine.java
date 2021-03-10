@@ -8,7 +8,7 @@ public class Engine {
 
     public static int randomInt() {
         final int min = 1;
-        final int max = 360;
+        final int max = 150;
         return min + (int) (Math.random() * (max - min));
     }
 
@@ -40,8 +40,8 @@ public class Engine {
                 System.out.println("Correct!");
                 count += 1;
             } else {
-                System.out.println(answer + " is wrong answer ;(."
-                + " Correct answer was " + result
+                System.out.println("'" + answer + "' is wrong answer ;(."
+                + " Correct answer was '" + result + "'"
                 + ".\nLet's try again, " + NAME_GAMER);
                 count = 0;
             }
