@@ -13,3 +13,6 @@
 [![asciicast](https://asciinema.org/a/kftCFG0PRuU3BMsmKPCedBTH4.svg)](https://asciinema.org/a/kftCFG0PRuU3BMsmKPCedBTH4)
 ### GCD game
 [![asciicast](https://asciinema.org/a/VZItDOk0n9EPuR36lHlYzvb5A.svg)](https://asciinema.org/a/VZItDOk0n9EPuR36lHlYzvb5A)
+### Prograssion game
+[![asciicast](https://asciinema.org/a/7b5RIDeQ4nFJDjYNrW23Jfo4P.svg)](https://asciinema.org/a/7b5RIDeQ4nFJDjYNrW23Jfo4P)
+### Prime game
