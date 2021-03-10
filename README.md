@@ -8,3 +8,4 @@
 [![Java CI](https://github.com/NestyChe/java-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/NestyChe/java-project-lvl1/actions)
 ### asciinema:
 [![asciicast](https://asciinema.org/a/t4xcwQF6jqHegVj14DCRWilgx.svg)](https://asciinema.org/a/t4xcwQF6jqHegVj14DCRWilgx)
+[![asciicast](https://asciinema.org/a/kftCFG0PRuU3BMsmKPCedBTH4.svg)](https://asciinema.org/a/kftCFG0PRuU3BMsmKPCedBTH4)
