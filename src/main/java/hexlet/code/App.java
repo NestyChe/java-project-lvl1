@@ -46,6 +46,9 @@ public class App {
             case "6":
                 Prime.play();
                 break;
+            case "0":
+                System.exit(0);
+                break;
             default:
                 break;
         }
