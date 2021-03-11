@@ -12,7 +12,7 @@ public class Progression {
             int increment = Engine.randomInt();
             int indexLost = (int) (Math.random() * round);
             String progression = build(indexLost, num, increment);
-            Engine.playCycle(progression, String.valueOf(lostNum));
+            Engine.playCycle(progression.trim(), String.valueOf(lostNum));
         }
     }
     public static String build(final int lost, final int num, final int inc) {

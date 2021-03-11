@@ -12,7 +12,7 @@ public class GCD {
             int secondOperand = Engine.randomInt();
             nod = findNod(firstOperand, secondOperand);
             String expression = " " + firstOperand + " " + secondOperand;
-            Engine.playCycle(expression, String.valueOf(nod));
+            Engine.playCycle(expression.trim(), String.valueOf(nod));
         }
     }
 
