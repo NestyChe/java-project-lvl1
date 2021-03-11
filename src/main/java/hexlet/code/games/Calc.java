@@ -27,7 +27,7 @@ public class Calc {
         default:
              break;
         }
-        Engine.playCycle(expression, String.valueOf(result));
+        Engine.playCycle(expression.trim(), String.valueOf(result));
         }
     }
 }
